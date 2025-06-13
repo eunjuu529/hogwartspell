@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UTILITY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans', sans-serif;
+      background-color: white;
+      color: black;
+      padding: 0;
+    }
+
+    header {
+  background-color: black;
+  color: #b23a3a;
+  text-align: center;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* 선과 텍스트 간격 */
+  margin-bottom: 10px;
+}
+
+.header-top .line {
+  flex: 1;
+  height: 1px;
+  background-color: #b23a3a;
+}
+
+.header-top .hogwart {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+
+    .section {
+      padding: 0px;
+      padding-top: 50px;
+      
+    }
+
+    .section-number {
+      text-align: center;
+      color: #b23a3a;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 60px;
+      position: relative;
+    
+    }
+
+    .section-number::before,
+    .section-number::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 40%;
+      height: 1px;
+      background-color: #b23a3a;
+    }
+
+    .section-number::before {
+      left: 0;
+    }
+
+    .section-number::after {
+      right: 0;
+    }
+
+    .image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .image img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 0.9em;
+      line-height: 1.4;
+      text-align: center;
+      max-width: 90%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+          <span class="line"></span>
+          <span class="hogwart">Hogwart</span>
+          <span class="line"></span>
+        </div>
+        <h1>UTILITY</h1>
+      </header>
+      
+  <!-- Section 01 -->
+  <div class="section">
+    <div class="section-number">01</div>
+    <div class="image">
+      <img src="루모스 이미지.png" alt="루모스 이미지">
+    </div>
+    <div class="title">루모스</div>
+    <div class="subtitle">LUMOS</div>
+    <div class="description">
+        마법사의 지팡이 끝에서 빛을 발산해 어두운 곳을 밝히는 주문 <br>
+        어두운 방이나 동굴 등에서 안전하게 길을 찾을 수 있도록 도와줍니다.<br><br>
+        * 팁: 밝기를 조절하려면 주문을 다시 외치며 마법력을 조절해보세요.
+    </div>
+  </div>
+
+  <!-- Section 02 -->
+  <div class="section">
+    <div class="section-number">02</div>
+    <div class="image">
+      <img src="녹스 이미지.png" alt="녹스 이미지">
+    </div>
+    <div class="title">녹스</div>
+    <div class="subtitle">NOX</div>
+    <div class="description">
+        루모스로 밝힌 빛을 끄는 주문 <br>
+        지팡이 끝에서 나오는 빛을 즉시 소등하여 은신이나 주의를 끌지 않도록 할 수 있습니다.<br><br>
+        * 팁: 빛을 끄기 전 주변이 안전한지 확인하세요. 갑작스러운 어둠에 놀라지 않도록 주의하세요.
+    </div>
+  </div>
+
+</body>
+</html>
